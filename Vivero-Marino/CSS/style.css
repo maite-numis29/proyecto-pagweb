@@ -94,7 +94,7 @@ body {
 .menu-principal a {
   text-decoration: none;
   color: #333333;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
   transition: color 0.2s;
 }
@@ -139,15 +139,15 @@ body {
 }
 
 .menu a:hover {
-    color: #FFD34D;
+    color: #ffd34d;
 }
 
 /* ============================================================
      3) HERO (banner de bienvenida)
      ============================================================ */
 .hero {
-    background: #1F6F66;
-    color: white;
+    background: #dbbce2;
+    color: rgba(244, 240, 240, 0.864);
     text-align: center;
     padding: 60px 20px;
 }
@@ -160,8 +160,8 @@ body {
 .boton {
     display: inline-block;
     margin-top: 20px;
-    background: #FFD34D;
-    color: #222;
+    background: hsl(118, 53%, 62%);
+    color: #e2e6e2;
     padding: 12px 28px;
     border-radius: 6px;
     text-decoration: none;
@@ -169,7 +169,7 @@ body {
 }
 
 .boton:hover {
-    background: #FFC107;
+    background: #2F8F83;
 }
 
 /* ============================================================
