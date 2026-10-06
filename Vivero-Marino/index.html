@@ -142,26 +142,53 @@
         <div class="datos-contacto">
           <h3>Local central</h3>
           <ul>
-            <li><i class="fa-solid fa-location-dot"></i> Somos de Fancisco Alvares, Moreno, zona oeste, Buenos Aires</li>
+            <li><i class="fa-solid fa-location-dot"></i> Somos de Fancisco Alvares, Moreno, zona oeste, Buenos Aires
+            </li>
             <li><i class="fa-solid fa-clock"></i>envios por zona oeste y CABA</li>
           </ul>
 
-          <h3>Telefonos</h3>
+          <h3>Nuestras redes sociales</h3>
           <ul>
-            <li><i class="fa-solid fa-phone"></i> facebook: <a href="https://www.facebook.com/viveromarino/">+54 11 4555-0001</a></li>
-            <li><i class="fa-solid fa-headset"></i> instagram: <a href="https://www.instagram.com/viveromarino/">@viveromarino</a></li>
+            <li><i class="fa-solid fa-phone"></i> facebook: <a href="https://www.facebook.com/viveromarino/">+54 11
+                4555-0001</a></li>
+            <li><i class="fa-solid fa-headset"></i> instagram: <a
+                href="https://www.instagram.com/viveromarino/">@viveromarino</a></li>
             <li><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="tel:1160332853">1160332853</a></li>
-            <li><i class="fa-solid fa-envelope"></i> <a
+            <li><i class="fa-solid fa-envelope"></i> mail: <a
                 href="mailto:info@talentotech.com.ar">info@talentotech.com.ar</a></li>
           </ul>
           <p class="nota">* Datos de contacto ficticios, solo de ejemplo.</p>
         </div>
 
-        <!-- Columna del mapa: iframe de Google Maps  -->
+        <!-- Formulario con integración de Formspree -->
+        <form class="formulario-contacto" action="https://formspree.io/f/meaeeapz" method="POST">
+          <h3>Envíanos un mensaje</h3>
+
+          <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="campo">
+            <label for="email">Correo electrónico</label>
+            <!-- Atributo _replyto opcional pero recomendado para responder directamente -->
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu consulta aquí..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+        <!-- Columna del mapa: iframe de Google Maps -->
         <div class="mapa">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11045.759678173039!2d-58.8847488717208!3d-34.606083264549774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc911370f5853d%3A0x6838b55367fde46d!2sFrancisco%20Alvarez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1791243460852!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            title="Mapa del Vivero Marino" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            allowfullscreen></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11045.759678173039!2d-58.8847488717208!3d-34.606083264549774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc911370f5853d%3A0x6838b55367fde46d!2sFrancisco%20Alvarez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1791243460852!5m2!1ses!2sar"
+            title="Mapa del Vivero Marino" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+          </iframe>
         </div>
 
       </div>
